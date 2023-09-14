@@ -113,11 +113,11 @@ function triggerGPIORelay() {
     setTimeout(() => {
         // Code to execute after 1 second
         switchRelayto1();
-    }, 1500);
+    }, 1000);
 
     setTimeout(() => {
         switchRelayto0();
-    }, 1500);
+    }, 200);
     
 }
 
