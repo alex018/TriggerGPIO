@@ -117,7 +117,7 @@ function triggerGPIORelay() {
 
     setTimeout(() => {
         switchRelayto0();
-    }, 200);
+    }, 2000);
     
 }
 
