@@ -57,7 +57,7 @@ function triggerGPIORelay() {
                 },
                 body: JSON.stringify({
                    // access_token: accessToken,
-                    "relay1": "1"
+                    "relay0": "1"
                 })
             });
             console.log(accessToken);
@@ -92,7 +92,7 @@ function triggerGPIORelay() {
                 },
                 body: JSON.stringify({
                     access_token: accessToken,
-                    "relay1": "0"
+                    "relay0": "0"
                 })
             });
 
